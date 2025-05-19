@@ -2,12 +2,8 @@ name: Deploy RPL Book
 on:
   pull_request:
     branches: [ master ]
-    paths:
-      - 'docs/book/**'
   push:
     branches: [ master, dev ]
-    paths:
-      - 'docs/book/**'
 
 jobs:
   deploy:
